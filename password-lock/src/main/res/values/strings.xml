@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_password">New Password:</string>
+    <string name="new_password_confirm">Confirm New Password:</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="save_password">Save Password</string>
+    <string name="error_invalid_password">Invalid password entered!</string>
+    <string name="error_forgot_password">Forgot your password?\nEmail us at engappsmobile@gmail.com and we\'ll help you out.</string>
+    <string name="dialog_error_newPassword">The new passwords you entered are different.</string>
+    <string name="dialog_error_noNewPassword">Please enter a new password!</string>
+    <string name="password_dialog">Enter password to unlock:</string>
+    <string name="backdoor_password" translatable="false">forgotmypassword</string>
+    <string name="backdoor_toast">Note: You should go to settings and change or disable your password!</string>
+
+    <!-- Password preferences -->
+    <string name="pref_password_preferences_title">Password Preferences</string>
+    <string name="pref_password_enabled" translatable="false">pref_password_enabled</string>
+    <string name="pref_password_enabled_title">Enable Password</string>
+    <string name="pref_password_enabled_summary">Enable password protection for this application</string>
+    <string name="pref_password" translatable="false">pref_password</string>
+    <string name="pref_password_title">Password</string>
+    <string name="pref_password_summary">Enter a new password</string>
+    <string name="pref_timeout" translatable="false">pref_timeout</string>
+    <string name="pref_timeout_title">Timeout</string>
+    <string name="pref_timeout_summary">Time until the app will lock when not in use</string>
+
+    <string name="timeout_five_seconds">5 seconds</string>
+    <string name="timeout_thirty_seconds">30 seconds</string>
+    <string name="timeout_one_minute">1 minute</string>
+    <string name="timeout_five_minutes">5 minutes</string>
+
+    <string-array name="pref_timeout_labels">
+        <item>@string/timeout_five_seconds</item>
+        <item>@string/timeout_thirty_seconds</item>
+        <item>@string/timeout_one_minute</item>
+        <item>@string/timeout_five_minutes</item>
+    </string-array>
+    <string-array name="pref_timeout_values">
+        <item>5</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+    </string-array>
+
+    <string name="dialog_title">Error</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_enter">Enter</string>
+</resources>
